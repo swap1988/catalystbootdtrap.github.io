@@ -1,202 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Company Demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
-    <title>Catalyst Bootstrap</title>
 </head>
 <body>
-    <div class="bgimg">
+
+<!-- navbar -->
+   <div class="bgimg">
 
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-            <div class="container">
-                <a href="" class="navbar-brand text-warning font-weight-bold">SWAPTEHCNICAL</a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
-                    <span class="navbar-toggler-icon"> </span>
-                </button>
-
-                <div class="collapse navbar-collapse text-center" id="collapsenavbar">
-                    <ul class="navbar-nav ml-auto ">
-                        <li class="nav-item">
-                            <a href="" class="nav-link text-white">SERVICES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link text-white">PORTFOLIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link text-white">ABOUT</a>
-                         </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link text-white">TEAM</a>
-                        </li>
-                         <li class="nav-item">
-                            <a href="" class="nav-link text-white">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <div class="container text-center text-white headerset">
-            <h2> Welcome to our studio!</h2>
-            <h1> IT'S NICE TO MEET YOU </h1>
-            <button class="btn btn-warning text-white btn-lg"> SUBSCRIBE </button>
-        </div>
-    </div>
-
-    <section class="container ourservice text-center">
-        <h1> SERVICES </h1>
-        <p> dcklsjjskjf skjfkf kjkfj sjfkfh </p>
-
-        <div class="row rowsetting">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-                <div class="imgsetting d-block m-auto bg-warning"> <i class="fa fa-shopping-cart fa-3x text-white" aria-hidden="true"></i>
-                </div>
-                <h2> E-Commerce </h2>
-                <p> kjfksdhf sdkhfksdjh sdkfjhsdkh kfjhklsd</p>
-            </div>
+                <div class="container">
+                        <a class="navbar-brand"><img src="imges/business logo.jpg"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+                                <span class="navbar-toggler-icon"> </span>
+                        </button>
+                        <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+                                <ul class="navbar-nav ml-auto ">
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link text-white">SERVICES</a>
+                                    </li>
+                                    <li class="nav-item dropdown" data-toggle="dropdown">
+                                          <a class="nav-link text-light  px-3 dropdown-toggle" href="#">CATEGORIES</a>
+                                           <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">ABC</a>
+                                            <a class="dropdown-item" href="#">XYZ</a>
+                                            <a class="dropdown-item" href="#">PQR</a>
+                                            </div>
+                                     </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link text-white">ABOUT</a>
+                                     </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link text-white">TEAM</a>
+                                    </li>
+                                     <li class="nav-item">
+                                        <a href="" class="nav-link text-white">CONTACT</a>
+                                    </li>
+                                </ul>
+                            
+                            <form class="form-inline ml-auto">
+                               <div class="input-group">
+                                   <input type="text" class="form-control " placeholder="Search" >
+                                    <button class="btn btn-success" type="submit"><i class="fa fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                </div>    
+       </nav>
         
+     </div>
+ 
+     
+  
+    <section class="ourservice bg-light">
+            <div class="container text-center">
+                <h1>SERVICES</h1>
+                <P> sjhhdf hhfjfhf hshsdjf hfjfhfh jshdjf jshfhfgu jdhffjf</P>
     
-            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-                    <div class="imgsetting d-block m-auto bg-warning"> <i class="fa fa-desktop fa-3x text-white" aria-hidden="true"></i>
-                    </div>
-                    <h2> Responsive Design </h2>
-                    <p> kjfksdhf sdkhfksdjh sdkfjhsdkh kfjhklsd</p>
-            </div>
-        
-        
-            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-                    <div class="imgsetting d-block m-auto bg-warning"> <i class="fa fa-lock fa-3x text-white" aria-hidden="true"></i>
-                    </div>
-                    <h2> Web Security </h2>
-                    <p> kjfksdhf sdkhfksdjh sdkfjhsdkh kfjhklsd</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="portfolio bg-light">
-        <div class="container text-center">
-            <h1>PORTFOLIO</h1>
-            <P> sjhhdf hhfjfhf hshsdjf hfjfhfh jshdjf jshfhfgu jdhffjf</P>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-                    <div class="card">
-                        <img src="Image/1-1.jpg" class="card-img img-fluid">
-                        <div class="card-body">
-                            <h2 class="card-title"> Threads</h2>
-                            <p class="card-text"> fkjhfsf </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-                        <div class="card">
-                            <img src="Image/1-2.jpg" class="card-img img-fluid">
-                            <div class="card-body">
-                                <h2 class="card-title"> Threads</h2>
-                                <p class="card-text"> fkjhfsf </p>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-                        <div class="card">
-                            <img src="Image/1-3.jpg" class="card-img img-fluid">
-                            <div class="card-body">
-                                <h2 class="card-title"> Threads</h2>
-                                <p class="card-text"> fkjhfsf </p>
-                            </div>
-                        </div>
-                </div>
-            </div>
-            <div class="row">
+                <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
                         <div class="card">
-                            <img src="Image/2-1.jpg" class="card-img img-fluid">
+                           
+                            <img src="imges/img1-1.jpg" class="card-img img-fluid">
                             <div class="card-body">
-                                <h2 class="card-title"> Threads</h2>
+                                <h2 class="card-title"> Furniture Company</h2> 
                                 <p class="card-text"> fkjhfsf </p>
+                                <a href="../demo for company/furniture.html" class="btn btn-success">See Profile</a>
                             </div>
+                           
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
                             <div class="card">
-                                <img src="Image/2-2.jpg" class="card-img img-fluid">
+                                <img src="imges/Software.jpg" class="card-img img-fluid">
                                 <div class="card-body">
-                                    <h2 class="card-title"> Threads</h2>
+                                    <h2 class="card-title"> Software Company</h2>
                                     <p class="card-text"> fkjhfsf </p>
+                                    <a href="../demo for company/software.html" class="btn btn-success">See Profile</a>
                                 </div>
                             </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
                             <div class="card">
-                                <img src="Image/1-1.jpg" class="card-img img-fluid">
+                                <img src="imges/civil.jpg" class="card-img img-fluid">
                                 <div class="card-body">
-                                    <h2 class="card-title"> Threads</h2>
+                                    <h2 class="card-title"> Civil Company</h2>
                                     <p class="card-text"> fkjhfsf </p>
+                                    <a href="#" class="btn btn-success">See Profile</a>
                                 </div>
                             </div>
                     </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="ourteam">
-        <div class="container text-center">
-            <h1> OUR AMAZING TEAM</h1>
-            <P>fsdhff jshfsfh jhffhs sdfhkfh skfsfh</P>
-            
-            <div class="row teamsetting">
-                <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
-                    <figure class="figure">
-                        <img src="Image/4-1.jpg" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
-                    </figure>
-                    <figcaption>
-                        <h4> hksdhkfhf </h4>
-                        <p class="figure-caption"> sfdfggg </p>
-                    </figcaption>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
-                        <figure class="figure">
-                            <img src="Image/4-2.jpg" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
-                        </figure>
-                        <figcaption>
-                            <h4> hksdhkfhf </h4>
-                            <p class="figure-caption"> sfdfggg </p>
-                        </figcaption>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
-                        <figure class="figure">
-                            <img src="Image/4-3.jpg" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
-                        </figure>
-                        <figcaption>
-                            <h4> hksdhkfhf </h4>
-                            <p class="figure-caption"> sfdfggg </p>
-                        </figcaption>
+                <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                            <div class="card">
+                                <img src="imges/chemical.jpg" class="card-img img-fluid">
+                                <div class="card-body">
+                                    <h2 class="card-title"> Chemical Company</h2>
+                                    <p class="card-text"> fkjhfsf </p>
+                                    <a href="#" class="btn btn-success">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                                <div class="card">
+                                    <img src="imges/electronics.jpg" Class="card-img img-fluid">
+                                    <div class="card-body">
+                                        <h2 class="card-title"> Electronics Company</h2>
+                                        <p class="card-text"> fkjhfsf </p>
+                                        <a href="#" class="btn btn-success">See Profile</a>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                                <div class="card">
+                                    <img src="imges/mechanical.jpg" class="card-img img-fluid">
+                                    <div class="card-body">
+                                        <h2 class="card-title"> Mechanical</h2>
+                                        <p class="card-text"> fkjhfsf </p>
+                                        <a href="#" class="btn btn-success">See Profile</a>
+                                    </div>
+                                </div>
+                        </div>
                 </div>
             </div>
-            
-        </div>
-    </section>
-
-    <footer class="footer"> 
-        <h6 class="text-center"> Copyright @ 2019, Design By SwapTechnical</h6>
-    </footer>
     
-</body>
-</html>
+        </section>
+        <section class="ourteam">
+                <div class="container text-center">
+                    <h1> OUR AMAZING TEAM</h1>
+                    <P>fsdhff jshfsfh jhffhs sdfhkfh skfsfh</P>
+                    
+                    <div class="row teamsetting">
+                        <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                            <figure class="figure">
+                                <img src="imges/eng1.jpg" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+                            </figure>
+                            <figcaption>
+                                <h4> hksdhkfhf </h4>
+                                <p class="figure-caption"> sfdfggg </p>
+                            </figcaption>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                                <figure class="figure">
+                                    <img src="imges/eng2.jpg" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+                                </figure>
+                                <figcaption>
+                                    <h4> hksdhkfhf </h4>
+                                    <p class="figure-caption"> sfdfggg </p>
+                                </figcaption>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                                <figure class="figure">
+                                    <img src="imges/eng3.jpg" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+                                </figure>
+                                <figcaption>
+                                    <h4> hksdhkfhf </h4>
+                                    <p class="figure-caption"> sfdfggg </p>
+                                </figcaption>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <footer class="footer"> 
+                <h6 class="text-center"> Copyright @ 2019, Design By SwapTechnical</h6>
+            </footer>
+            
+        </body>
+        </html>
+
+
+        
+        
+
